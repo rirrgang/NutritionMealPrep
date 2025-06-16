@@ -41,7 +41,7 @@ const weekPlan = [
   { day: 'Freitag', meals: { breakfast: 2, lunch: 4, dinner: 6, snack: 3 } }
 ];
 
-export default function MealPrepCalendar() {
+function MealPrepCalendar() {
   const [expandedId, setExpandedId] = useState(null);
   const [scale, setScale] = useState(1);
 
